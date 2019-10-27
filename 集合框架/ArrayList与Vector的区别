@@ -1,0 +1,7 @@
+//ArrayList与Vector的区别
+
+Vectot是线程安全的，而ArrayList 是线程不安全的
+
+数据增长
+ArrayList增加原来的0.5倍，ArrayList没有提供增长空间的方法；
+vector增加原来的1倍，Vector可以设置增长空间的大小；
